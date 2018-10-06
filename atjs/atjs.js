@@ -176,6 +176,7 @@ this.atjs = {};
 
 		This gets called after loading, you should set up your application-specific stuff here
 	*/
+	alert('Hello World!');
 	atjs.start = function (params) {
 		atjs.app();
 		atjs.params = params;
